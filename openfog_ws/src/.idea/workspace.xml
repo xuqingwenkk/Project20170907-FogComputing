@@ -5,6 +5,7 @@
       <config projectName="Project" targetName="FeatureAnalysis" />
       <config projectName="Project" targetName="FeatureExtractor" />
       <config projectName="Project" targetName="roscpp_generate_messages_py" />
+      <config projectName="Project" targetName="NodeletFeatureAnalysis" />
       <config projectName="Project" targetName="fog_msgs_generate_messages_eus" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="std_msgs_generate_messages_cpp" />
@@ -16,6 +17,7 @@
       <config projectName="Project" targetName="geometry_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_cpp" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="NodeletFeatureExtraction" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_py" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="fog_msgs_genlisp" />
@@ -74,51 +76,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="feature_analysis_main.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="feature_analysis_main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_analysis_main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="163">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature_extraction_main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_extraction_main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="e#37#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature_extraction.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_extraction.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="e#37#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature_extraction.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feature_analysis/include/feature_extraction.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+              <folding>
+                <element signature="e#97#125#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_analysis/package.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="58" column="64" lean-forward="true" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cSystem.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_analysis/src/cSystem.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_analysis/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1962">
-              <caret line="109" column="60" lean-forward="false" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+            <state relative-caret-position="246">
+              <caret line="244" column="67" lean-forward="true" selection-start-line="244" selection-start-column="67" selection-end-line="244" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cMultiFramePublisher.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_analysis/src/cMultiFramePublisher.cpp">
+      <file leaf-file-name="feature_extraction.launch" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature_analysis/launch/feature_extraction.launch">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3852">
-              <caret line="214" column="34" lean-forward="false" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cTracking.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_analysis/src/cTracking.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3510">
-              <caret line="195" column="43" lean-forward="false" selection-start-line="195" selection-start-column="43" selection-end-line="195" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cTracking.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature_analysis/include/cTracking.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -142,7 +172,6 @@
         <option value="$PROJECT_DIR$/messages/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/feature_analysis/src/cam_mono_omni.h" />
         <option value="$PROJECT_DIR$/feature_extraction/package.xml" />
-        <option value="$PROJECT_DIR$/feature_analysis/package.xml" />
         <option value="$PROJECT_DIR$/feature_analysis/include/cam_mono_omni.h" />
         <option value="$PROJECT_DIR$/feature_analysis/src/cam_mono_omni.cpp" />
         <option value="$PROJECT_DIR$/feature_analysis/include/cMonocular.h" />
@@ -163,7 +192,6 @@
         <option value="$PROJECT_DIR$/fog_msgs/msg/Features.msg" />
         <option value="$PROJECT_DIR$/fog_msgs/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/feature_analysis/src/feature_extraction_main.cpp" />
-        <option value="$PROJECT_DIR$/feature_analysis/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/feature_analysis/include/cMultiFrame.h" />
         <option value="$PROJECT_DIR$/feature_analysis/include/cTracking.h" />
         <option value="$PROJECT_DIR$/feature_analysis/include/cSystem.h" />
@@ -172,6 +200,17 @@
         <option value="$PROJECT_DIR$/feature_analysis/src/feature_analysis_main.cpp" />
         <option value="$PROJECT_DIR$/feature_analysis/src/cSystem.cpp" />
         <option value="$PROJECT_DIR$/feature_analysis/src/cViewer.cpp" />
+        <option value="$PROJECT_DIR$/feature_analysis/src/feature_extraction.h" />
+        <option value="$PROJECT_DIR$/feature_analysis/nodelet_feature_analysis.xml" />
+        <option value="$PROJECT_DIR$/feature_analysis/package.xml" />
+        <option value="$PROJECT_DIR$/feature_analysis/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/feature_analysis/src/feature_analysis.h" />
+        <option value="$PROJECT_DIR$/feature_analysis/src/feature_analysis.cpp" />
+        <option value="$PROJECT_DIR$/feature_analysis/launch/feature_analysis.launch" />
+        <option value="$PROJECT_DIR$/feature_analysis/include/feature_extraction.h" />
+        <option value="$PROJECT_DIR$/feature_analysis/src/feature_extraction.cpp" />
+        <option value="$PROJECT_DIR$/feature_analysis/nodelet_feature_extraction.xml" />
+        <option value="$PROJECT_DIR$/feature_analysis/launch/feature_extraction.launch" />
       </list>
     </option>
   </component>
@@ -183,10 +222,10 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1985" />
-    <option name="y" value="85" />
-    <option name="width" value="1535" />
-    <option name="height" value="904" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -209,6 +248,37 @@
             <path>
               <item name="src" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="src" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="fog_msgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,6 +317,12 @@
       <envs />
     </configuration>
     <configuration name="ImagePublisher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="ImagePublisher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="ImagePublisher">
+      <envs />
+    </configuration>
+    <configuration name="NodeletFeatureAnalysis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="NodeletFeatureAnalysis" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="NodeletFeatureExtraction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="NodeletFeatureExtraction" CONFIG_NAME="Debug">
       <envs />
     </configuration>
     <configuration name="_fog_msgs_generate_messages_check_deps_Descriptor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="_fog_msgs_generate_messages_check_deps_Descriptor" CONFIG_NAME="Debug">
@@ -393,7 +469,7 @@
     <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="tests" CONFIG_NAME="Debug">
       <envs />
     </configuration>
-    <list size="53">
+    <list size="55">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.clean_test_results" />
       <item index="2" class="java.lang.String" itemvalue="Application.download_extra_data" />
@@ -403,50 +479,52 @@
       <item index="6" class="java.lang.String" itemvalue="Application.feature_analysis" />
       <item index="7" class="java.lang.String" itemvalue="Application.FeatureAnalysis" />
       <item index="8" class="java.lang.String" itemvalue="Application.FeatureExtraction" />
-      <item index="9" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_cpp" />
-      <item index="10" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_eus" />
-      <item index="11" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_lisp" />
-      <item index="12" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_nodejs" />
-      <item index="13" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_py" />
-      <item index="14" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_cpp" />
-      <item index="15" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_eus" />
-      <item index="16" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_lisp" />
-      <item index="17" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_nodejs" />
-      <item index="18" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_py" />
-      <item index="19" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
-      <item index="20" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
-      <item index="21" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
-      <item index="22" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
-      <item index="23" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_py" />
-      <item index="24" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_cpp" />
-      <item index="25" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_eus" />
-      <item index="26" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_lisp" />
-      <item index="27" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_nodejs" />
-      <item index="28" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_py" />
-      <item index="29" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_cpp" />
-      <item index="30" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_eus" />
-      <item index="31" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_lisp" />
-      <item index="32" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_nodejs" />
-      <item index="33" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_py" />
-      <item index="34" class="java.lang.String" itemvalue="Application.feature_extraction" />
-      <item index="35" class="java.lang.String" itemvalue="Application.FeatureExtractor" />
-      <item index="36" class="java.lang.String" itemvalue="Application.ImagePublisher" />
-      <item index="37" class="java.lang.String" itemvalue="Application._fog_msgs_generate_messages_check_deps_Descriptor" />
-      <item index="38" class="java.lang.String" itemvalue="Application._fog_msgs_generate_messages_check_deps_Features" />
-      <item index="39" class="java.lang.String" itemvalue="Application._fog_msgs_generate_messages_check_deps_Keypoint" />
-      <item index="40" class="java.lang.String" itemvalue="Application.fog_msgs_gencpp" />
-      <item index="41" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages" />
-      <item index="42" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_cpp" />
-      <item index="43" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_eus" />
-      <item index="44" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_lisp" />
-      <item index="45" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_nodejs" />
-      <item index="46" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_py" />
-      <item index="47" class="java.lang.String" itemvalue="Application.fog_msgs_geneus" />
-      <item index="48" class="java.lang.String" itemvalue="Application.fog_msgs_genlisp" />
-      <item index="49" class="java.lang.String" itemvalue="Application.fog_msgs_gennodejs" />
-      <item index="50" class="java.lang.String" itemvalue="Application.fog_msgs_genpy" />
-      <item index="51" class="java.lang.String" itemvalue="Application.gtest" />
-      <item index="52" class="java.lang.String" itemvalue="Application.gtest_main" />
+      <item index="9" class="java.lang.String" itemvalue="Application.NodeletFeatureAnalysis" />
+      <item index="10" class="java.lang.String" itemvalue="Application.NodeletFeatureExtraction" />
+      <item index="11" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_cpp" />
+      <item index="12" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_eus" />
+      <item index="13" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_lisp" />
+      <item index="14" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_nodejs" />
+      <item index="15" class="java.lang.String" itemvalue="Application.geometry_msgs_generate_messages_py" />
+      <item index="16" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_cpp" />
+      <item index="17" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_eus" />
+      <item index="18" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_lisp" />
+      <item index="19" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_nodejs" />
+      <item index="20" class="java.lang.String" itemvalue="Application.roscpp_generate_messages_py" />
+      <item index="21" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_cpp" />
+      <item index="22" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_eus" />
+      <item index="23" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_lisp" />
+      <item index="24" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_nodejs" />
+      <item index="25" class="java.lang.String" itemvalue="Application.rosgraph_msgs_generate_messages_py" />
+      <item index="26" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_cpp" />
+      <item index="27" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_eus" />
+      <item index="28" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_lisp" />
+      <item index="29" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_nodejs" />
+      <item index="30" class="java.lang.String" itemvalue="Application.sensor_msgs_generate_messages_py" />
+      <item index="31" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_cpp" />
+      <item index="32" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_eus" />
+      <item index="33" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_lisp" />
+      <item index="34" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_nodejs" />
+      <item index="35" class="java.lang.String" itemvalue="Application.std_msgs_generate_messages_py" />
+      <item index="36" class="java.lang.String" itemvalue="Application.feature_extraction" />
+      <item index="37" class="java.lang.String" itemvalue="Application.FeatureExtractor" />
+      <item index="38" class="java.lang.String" itemvalue="Application.ImagePublisher" />
+      <item index="39" class="java.lang.String" itemvalue="Application._fog_msgs_generate_messages_check_deps_Descriptor" />
+      <item index="40" class="java.lang.String" itemvalue="Application._fog_msgs_generate_messages_check_deps_Features" />
+      <item index="41" class="java.lang.String" itemvalue="Application._fog_msgs_generate_messages_check_deps_Keypoint" />
+      <item index="42" class="java.lang.String" itemvalue="Application.fog_msgs_gencpp" />
+      <item index="43" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages" />
+      <item index="44" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_cpp" />
+      <item index="45" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_eus" />
+      <item index="46" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_lisp" />
+      <item index="47" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_nodejs" />
+      <item index="48" class="java.lang.String" itemvalue="Application.fog_msgs_generate_messages_py" />
+      <item index="49" class="java.lang.String" itemvalue="Application.fog_msgs_geneus" />
+      <item index="50" class="java.lang.String" itemvalue="Application.fog_msgs_genlisp" />
+      <item index="51" class="java.lang.String" itemvalue="Application.fog_msgs_gennodejs" />
+      <item index="52" class="java.lang.String" itemvalue="Application.fog_msgs_genpy" />
+      <item index="53" class="java.lang.String" itemvalue="Application.gtest" />
+      <item index="54" class="java.lang.String" itemvalue="Application.gtest_main" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -471,26 +549,27 @@
       <workItem from="1505039397128" duration="8999000" />
       <workItem from="1505093394451" duration="12221000" />
       <workItem from="1505114881573" duration="1025000" />
+      <workItem from="1505117626200" duration="9850000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54572000" />
+    <option name="totallyTimeSpent" value="64422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="85" width="1535" height="904" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.206469" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.385" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52875" sideWeight="0.5022801" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33125" sideWeight="0.49771988" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27040815" sideWeight="0.49771988" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -515,33 +594,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/messages/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/messages/package.xml" />
-    <entry file="file://$PROJECT_DIR$/feature_extraction/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_analysis/src/cam_model_omni.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1494">
-          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_analysis/ThirdParty/OpenGV/include/opengv/types.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_analysis/include/cMonocular.h" />
-    <entry file="file://$PROJECT_DIR$/feature_analysis/src/cMonoTracking.h" />
-    <entry file="file://$PROJECT_DIR$/feature_analysis/src/cam_mono_omni.cpp" />
-    <entry file="file://$PROJECT_DIR$/feature_analysis/include/cam_mono_omni.h" />
     <entry file="file://$PROJECT_DIR$/feature_analysis/src/cMonocular.cpp" />
     <entry file="file://$PROJECT_DIR$/feature_analysis/src/cMonoMapPublisher.h" />
     <entry file="file://$PROJECT_DIR$/feature_analysis/src/cMonoFramePublisher.h" />
@@ -664,27 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_extraction_main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_analysis/package.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature_analysis/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="229" column="23" lean-forward="false" selection-start-line="229" selection-start-column="23" selection-end-line="229" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_analysis/include/cSystem.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -712,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="802" column="0" lean-forward="false" selection-start-line="802" selection-start-column="0" selection-end-line="802" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,14 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/feature_analysis/src/cSystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1962">
-          <caret line="109" column="60" lean-forward="false" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/feature_analysis/src/cMapPublisher.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-701">
@@ -767,6 +789,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_extraction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feature_analysis/include/cTracking.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -775,11 +805,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/src/cSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="109" column="60" lean-forward="false" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/nodelet_feature_analysis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/launch/feature_analysis.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="64" lean-forward="true" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_analysis.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_analysis.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#37#77#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_analysis_main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="163">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_extraction_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="58" column="64" lean-forward="true" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="244" column="67" lean-forward="true" selection-start-line="244" selection-start-column="67" selection-end-line="244" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/launch/feature_extraction.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="66" lean-forward="true" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/src/feature_extraction.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#37#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/nodelet_feature_extraction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature_analysis/include/feature_extraction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="e#97#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

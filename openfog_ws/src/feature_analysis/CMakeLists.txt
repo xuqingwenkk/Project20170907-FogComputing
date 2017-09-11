@@ -237,6 +237,14 @@ add_executable(FeatureExtraction src/feature_extraction_main.cpp)
 add_dependencies(FeatureExtraction ${catkin_EXPORTED_TARGETS})
 target_link_libraries(FeatureExtraction ${catkin_LIBRARIES} ${OpenCV_INCLUDE_DIRS} ${PROJECT_NAME})
 
+add_library(NodeletFeatureExtraction src/feature_extraction.cpp)
+add_dependencies(NodeletFeatureExtraction ${catkin_EXPORTED_TARGETS})
+target_link_libraries(NodeletFeatureExtraction ${catkin_LIBRARIES} ${OpenCV_INCLUDE_DIRS} ${PROJECT_NAME})
+
+add_library(NodeletFeatureAnalysis src/feature_analysis.cpp)
+add_dependencies(NodeletFeatureAnalysis ${catkin_EXPORTED_TARGETS})
+target_link_libraries(NodeletFeatureAnalysis ${catkin_LIBRARIES} ${OpenCV_INCLUDE_DIRS} ${PROJECT_NAME})
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/feature_analysis.cpp
