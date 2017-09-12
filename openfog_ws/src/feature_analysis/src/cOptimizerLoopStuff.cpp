@@ -1,4 +1,4 @@
-﻿/**
+﻿/*
 * This file is part of MultiCol-SLAM
 *
 * Copyright (C) 2015-2016 Steffen Urban <urbste at googlemail.com>
